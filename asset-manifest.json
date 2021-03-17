@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/erp_web/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/erp_web/static/js/main.5298e4a4.chunk.js",
+    "main.js.map": "/erp_web/static/js/main.5298e4a4.chunk.js.map",
+    "runtime-main.js": "/erp_web/static/js/runtime-main.f89c1726.js",
+    "runtime-main.js.map": "/erp_web/static/js/runtime-main.f89c1726.js.map",
+    "static/js/2.e3893858.chunk.js": "/erp_web/static/js/2.e3893858.chunk.js",
+    "static/js/2.e3893858.chunk.js.map": "/erp_web/static/js/2.e3893858.chunk.js.map",
+    "static/js/3.ff19c8f4.chunk.js": "/erp_web/static/js/3.ff19c8f4.chunk.js",
+    "static/js/3.ff19c8f4.chunk.js.map": "/erp_web/static/js/3.ff19c8f4.chunk.js.map",
+    "index.html": "/erp_web/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/erp_web/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.e3893858.chunk.js.LICENSE.txt": "/erp_web/static/js/2.e3893858.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/erp_web/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f89c1726.js",
+    "static/js/2.e3893858.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.5298e4a4.chunk.js"
+  ]
+}
