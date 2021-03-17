@@ -1,23 +1,36 @@
 {
   "files": {
-    "main.css": "/erp_web/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/erp_web/static/js/main.5298e4a4.chunk.js",
-    "main.js.map": "/erp_web/static/js/main.5298e4a4.chunk.js.map",
-    "runtime-main.js": "/erp_web/static/js/runtime-main.f89c1726.js",
-    "runtime-main.js.map": "/erp_web/static/js/runtime-main.f89c1726.js.map",
-    "static/js/2.e3893858.chunk.js": "/erp_web/static/js/2.e3893858.chunk.js",
-    "static/js/2.e3893858.chunk.js.map": "/erp_web/static/js/2.e3893858.chunk.js.map",
-    "static/js/3.ff19c8f4.chunk.js": "/erp_web/static/js/3.ff19c8f4.chunk.js",
-    "static/js/3.ff19c8f4.chunk.js.map": "/erp_web/static/js/3.ff19c8f4.chunk.js.map",
+    "main.css": "/erp_web/static/css/main.4697d9cb.chunk.css",
+    "main.js": "/erp_web/static/js/main.3a28cdea.chunk.js",
+    "main.js.map": "/erp_web/static/js/main.3a28cdea.chunk.js.map",
+    "runtime-main.js": "/erp_web/static/js/runtime-main.a1bd0c1d.js",
+    "runtime-main.js.map": "/erp_web/static/js/runtime-main.a1bd0c1d.js.map",
+    "static/css/2.89dee22b.chunk.css": "/erp_web/static/css/2.89dee22b.chunk.css",
+    "static/js/2.be6dbde6.chunk.js": "/erp_web/static/js/2.be6dbde6.chunk.js",
+    "static/js/2.be6dbde6.chunk.js.map": "/erp_web/static/js/2.be6dbde6.chunk.js.map",
+    "static/js/3.448cad56.chunk.js": "/erp_web/static/js/3.448cad56.chunk.js",
+    "static/js/3.448cad56.chunk.js.map": "/erp_web/static/js/3.448cad56.chunk.js.map",
+    "static/js/4.affada8d.chunk.js": "/erp_web/static/js/4.affada8d.chunk.js",
+    "static/js/4.affada8d.chunk.js.map": "/erp_web/static/js/4.affada8d.chunk.js.map",
+    "static/js/5.1c84ff03.chunk.js": "/erp_web/static/js/5.1c84ff03.chunk.js",
+    "static/js/5.1c84ff03.chunk.js.map": "/erp_web/static/js/5.1c84ff03.chunk.js.map",
     "index.html": "/erp_web/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/erp_web/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.e3893858.chunk.js.LICENSE.txt": "/erp_web/static/js/2.e3893858.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/erp_web/static/media/logo.6ce24c58.svg"
+    "precache-manifest.4a56189e96fd106fa934dee18397e4f8.js": "/erp_web/precache-manifest.4a56189e96fd106fa934dee18397e4f8.js",
+    "service-worker.js": "/erp_web/service-worker.js",
+    "static/css/2.89dee22b.chunk.css.map": "/erp_web/static/css/2.89dee22b.chunk.css.map",
+    "static/css/main.4697d9cb.chunk.css.map": "/erp_web/static/css/main.4697d9cb.chunk.css.map",
+    "static/js/2.be6dbde6.chunk.js.LICENSE.txt": "/erp_web/static/js/2.be6dbde6.chunk.js.LICENSE.txt",
+    "static/js/main.3a28cdea.chunk.js.LICENSE.txt": "/erp_web/static/js/main.3a28cdea.chunk.js.LICENSE.txt",
+    "static/media/flaticon.css": "/erp_web/static/media/Flaticon2.eafcbac0.ttf",
+    "static/media/ki.css": "/erp_web/static/media/Ki.8f9a1a6c.woff",
+    "static/media/all.min.css": "/erp_web/static/media/fa-solid-900.ec763292.svg",
+    "static/media/socicon.css": "/erp_web/static/media/socicon.a35b6574.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f89c1726.js",
-    "static/js/2.e3893858.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.5298e4a4.chunk.js"
+    "static/js/runtime-main.a1bd0c1d.js",
+    "static/css/2.89dee22b.chunk.css",
+    "static/js/2.be6dbde6.chunk.js",
+    "static/css/main.4697d9cb.chunk.css",
+    "static/js/main.3a28cdea.chunk.js"
   ]
 }
