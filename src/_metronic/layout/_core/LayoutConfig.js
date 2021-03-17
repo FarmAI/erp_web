@@ -63,7 +63,7 @@ export function getInitLayoutConfig() {
     // == Page Splash Screen loading
     loader: {
       enabled: true,
-      type: "", // default|spinner-message|spinner-logo
+      type: "spinner-logo", // default|spinner-message|spinner-logo
       logo: toAbsoluteUrl("/media/logos/logo-dark-sm.png"),
       message: "Please wait...",
     },
@@ -128,7 +128,7 @@ export function getInitLayoutConfig() {
         fixed: true,
         minimize: {
           toggle: true, // allow toggle
-          default: false, // default state
+          default: true, // default state
           hoverable: true, // allow hover
         },
       },
@@ -158,7 +158,7 @@ export function getInitLayoutConfig() {
     },
     extras: {
       search: {
-        display: true,
+        display: false,
         layout: "dropdown", // offcanvas, dropdown
         offcanvas: {
           direction: "right",
@@ -175,7 +175,7 @@ export function getInitLayoutConfig() {
         },
       },
       "quick-actions": {
-        display: true,
+        display: false,
         layout: "dropdown", // offcanvas, dropdown,
         dropdown: {
           style: "dark", // light, dark
@@ -204,7 +204,7 @@ export function getInitLayoutConfig() {
         },
       },
       "quick-panel": {
-        display: true,
+        display: false,
         offcanvas: {
           directions: "right",
         },
@@ -213,7 +213,7 @@ export function getInitLayoutConfig() {
         display: true,
       },
       toolbar: {
-        display: true,
+        display: false,
       },
       scrolltop: {
         display: true,

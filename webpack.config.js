@@ -9,7 +9,7 @@ const WebpackMessages = require("webpack-messages");
 const del = require("del");
 
 // theme name
-const themeName = "ERP";
+const themeName = "metronic";
 // global variables
 const rootPath = path.resolve(__dirname);
 const distPath = rootPath + "/src";

@@ -1,5 +1,5 @@
 /**
- * Create React app entry point. This and `public/index.html` files can not be
+ * Create React App entry point. This and `public/index.html` files can not be
  * changed or moved.
  */
 import "react-app-polyfill/ie11";
@@ -17,22 +17,21 @@ import "socicon/css/socicon.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./_metronic/_assets/plugins/flaticon/flaticon.css";
 import "./_metronic/_assets/plugins/flaticon2/flaticon.css";
+// Datepicker
 import "react-datepicker/dist/react-datepicker.css";
-
 import {
-    MetronicLayoutProvider,
-    MetronicSplashScreenProvider,
-    MetronicSubheaderProvider
+  MetronicLayoutProvider,
+  MetronicSplashScreenProvider,
+  MetronicSubheaderProvider
 } from "./_metronic/layout";
 import {MetronicI18nProvider} from "./_metronic/i18n";
-import reportWebVitals from './reportWebVitals';
 
 /**
  * Base URL of the website.
  *
  * @see https://facebook.github.io/create-react-app/docs/using-the-public-folder
  */
-const PUBLIC_URL = process.env.PUBLIC_URL !== undefined ? process.env.PUBLIC_URL : "/";
+const { PUBLIC_URL } = process.env;
 
 /**
  * Creates `axios-mock-adapter` instance for provided `axios` instance, add
@@ -50,19 +49,14 @@ const PUBLIC_URL = process.env.PUBLIC_URL !== undefined ? process.env.PUBLIC_URL
 _redux.setupAxios(axios, store);
 
 ReactDOM.render(
-    <MetronicI18nProvider>
-        <MetronicLayoutProvider>
-            <MetronicSubheaderProvider>
-                <MetronicSplashScreenProvider>
-                    <App store={store} persistor={persistor} basename={PUBLIC_URL} />
-                </MetronicSplashScreenProvider>
-            </MetronicSubheaderProvider>
-        </MetronicLayoutProvider>
-    </MetronicI18nProvider>,
-    document.getElementById("root")
+  <MetronicI18nProvider>
+    <MetronicLayoutProvider>
+      <MetronicSubheaderProvider>
+        <MetronicSplashScreenProvider>
+          <App store={store} persistor={persistor} basename={PUBLIC_URL} />
+        </MetronicSplashScreenProvider>
+      </MetronicSubheaderProvider>
+    </MetronicLayoutProvider>
+  </MetronicI18nProvider>,
+  document.getElementById("root")
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals(console.log);

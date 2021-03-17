@@ -13,6 +13,8 @@ function getConfig() {
     } catch (er) {
       console.error(er);
     }
+  } else {
+    localStorage.setItem(LAYOUT_CONFIG_KEY, JSON.stringify(getInitLayoutConfig()))
   }
   return getInitLayoutConfig();
 }
