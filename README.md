@@ -1,6 +1,9 @@
-# Getting Started with Create React App
-
+# Getting Started
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Preview
+
+You can view the application on [GitHub Pages](https://farmai.github.io/erp_web/).
 
 ## Available Scripts
 
