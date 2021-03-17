@@ -1,0 +1,15 @@
+{
+  "public": "_site",
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/erp_web"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/erp_web/**",
+      "destination": "/erp_web/index.html"
+    }
+  ]
+}
