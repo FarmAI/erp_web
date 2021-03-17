@@ -31,3 +31,5 @@ jobs:
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+  
+  # add more jobs if needed to update metrics or initiate deployments
